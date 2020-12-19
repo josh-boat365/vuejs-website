@@ -1,0 +1,25 @@
+html,body{
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.site-intro{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+  
+}
+.abt-img-1{
+  width: 450px;
+  height: 450px;
+}
+.abt-img-2{
+  width: 290px;
+  height: 290px;
+  border-radius: 700px;
+  position: absolute;
+  /* top: ;
+  left: ;
+  bottom: ;
+} */
+
