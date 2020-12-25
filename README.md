@@ -1,3 +1,3 @@
 # Sample Site - Nnuro.com  
 
-<img src="./mock-ups/Nnuro Home page 1.0.PNG"  alt="Ghana-flag">
+<img src="./mock-ups/hero-section.PNG"> <img src="./mock-ups/svg1.PNG"> <img src="./mock-ups/svg2.PNG"> <img src="./mock-ups/footer.PNG">
