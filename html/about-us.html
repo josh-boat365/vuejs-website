@@ -3,49 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- local css -->
+      <link rel="stylesheet" href="/dist/css/main.css">
+     <!-- Fontawesome-icons -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+     <!-- Bootsrap-css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>About Us</title>
 </head>
 <body>
-     <!-- ----------------Navigation Bar --------------- -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!-- ----------------Navigation Bar --------------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img src="./dist/assets/logo.png" alt="Nnuro-logo"></a>
+          <a class="navbar-brand nav-logo" href="../index.html"><img src="../dist/assets/logo.png" alt="Nnuro-logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-contents">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#wholesaler">Wholesaler</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#retailer">Retailer</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Products
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./html/nnuro-pharma.html">Nnuro Pharma</a></li>
+                  <li><a class="dropdown-item" href="./nnuro-pharma.html">Nnuro Pharma</a></li>
                   
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./html/about-us.html">About Us</a>
+                <a class="nav-link active" aria-current="page" href="./about-us.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./html/news.html">News</a>
+                <a class="nav-link active" aria-current="page" href="./news.html">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./html/contact-us.html">Contact Us</a>
+                <a class="nav-link active" aria-current="page" href="./contact-us.html">Contact Us</a>
               </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <form action="./sign-in.html">
+              <button class="nav-button"><i class="fas fa-admin"></i> Sign In</button>
             </form>
           </div>
         </div>
@@ -55,7 +58,7 @@
     <section class="about-section">
         <div class="about-us-title">
              <h1>About Us</h1>
-            <span><a href="/index.html">Home</a> | About Us</span>
+            <span><a href="../index.html">Home</a> | About Us</span>
         </div>
         <div class="about-us-message">
             <img src="image" alt="image-about-us">
@@ -208,5 +211,8 @@
             <span>move-up</span>
         </div>
         </footer>
+        <!-- Javascript-Libraries -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
